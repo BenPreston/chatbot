@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marbot</title>
+    <script type="text/javascript" src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
+	
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+    <script type="text/javascript" src="sketch.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div class="center container">
+        <h1 class="heading">MarBot</h1>
+        <p class="center">This is a bot that supports Marfeel employees with questions they might have</p>
+        <div id="chat" class="grey lighten-3 container">
+            <p class='botchat container blue'>     
+                Have your conversation here: 
+            </p>  
+        </div>  
+        <div class="userArea col s4 container">
+            <label>Insert text</label>
+            <input id="user_input"/> 
+            <button id='submit'>SUBMIT</button></p>    
+        </div>      
+    </div>
+</body>
+</html>
+
+<!-- onSubmit="userSpeaks(event)" -->

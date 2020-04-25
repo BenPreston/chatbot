@@ -1,0 +1,16 @@
+
+.botChat {
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px; 
+    transition: 20s;
+    transition-delay: 20s;
+}
+
+.humanChat {
+    background-color: #a7cba7;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px 
+}

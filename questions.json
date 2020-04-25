@@ -1,0 +1,55 @@
+[
+    {
+      "_id": "5ea4ac2ef814e87b625c36ed",
+      "team": "Tech",
+      "type": "Why",
+      "question": "Why do we write our widgets in Typescript?",
+      "responder": "Rachel",
+      "questioner": "Ben",
+      "latestscore": 10,
+      "countofscores": 2,
+      "arrayofscores": "[5, 10]",
+      "averagescore": 5,
+      "registered": "2017-08-26T04:10:32 -02:00",
+      "tags": [
+        "write",
+        "widgets",
+        "Typescript"
+      ]
+    },
+    {
+      "_id": "5ea4ac2e6da09e1a1dae54aa",
+      "team": "Marketing",
+      "type": "Why",
+      "question": "Why is our logo blue",
+      "responder": "Joe",
+      "questioner": "Ella",
+      "latestscore": 4,
+      "countofscores": 2,
+      "arrayofscores": "[8, 4]",
+      "averagescore": 6,
+      "registered": "2015-09-26T09:29:49 -02:00",
+      "tags": [
+        "logo",
+        "blue"
+      ]
+    },
+    {
+      "_id": "5ea4ac2e3fd5984d39aef747",
+      "team": "HR",
+      "type": "Where",
+      "question": "Where do we keep the pens?",
+      "responder": "Ella",
+      "questioner": "Joe",
+      "latestscore": 8,
+      "countofscores": 3,
+      "arrayofscores": "[6,7,8]",
+      "averagescore": 7,
+      "registered": "2018-08-21T08:21:47 -02:00",
+      "tags": [
+        "keep",
+        "the",
+        "pens"
+      ]
+    }
+  ]

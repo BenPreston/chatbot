@@ -1,0 +1,34 @@
+! version = 2.0
+
+// Substitutions
+    // Grammar
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
+    // Greetings
+! sub hi = hello
+! sub yo = hello
+! sub howdy = hello
+
+
+// Starter Conversation
++ hello*
+- Hello how are you? Would you like some advice on what I can do?
++ yes
+- cool
++ no
+- no worries, how can I help?

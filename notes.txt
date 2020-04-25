@@ -1,0 +1,22 @@
+// https://www.json-generator.com/
+
+[
+  '{{repeat(10, 10)}}',
+  {
+    _id: '{{objectId()}}',
+    team: '{{random("HR", "Marketing", "Tech", "General")}}',
+    type: '{{random("Who", "What", "Where", "When", "Why")}}',
+    question: '{{lorem(1, "paragraphs")}}',
+    responder: '{{random("Ben", "Alice", "Ella", "Rachel", "Rory" , "Joe")}}',
+    questioner: '{{random("Ben", "Alice", "Ella", "Rachel", "Rory", "Joe")}}',
+    latestscore: '{{integer(0, 10)}}',
+    countofscores: '{{integer(0, 10)}}',
+    arrayofscores: '[]',
+    averagescore: '{{integer(0, 10)}}',
+    registered: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}',
+    tags: [
+      '{{repeat(7)}}',
+      '{{lorem(1, "words")}}'
+    ]  
+  }
+]
