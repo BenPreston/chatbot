@@ -34,6 +34,7 @@ function setup() {
 
   button.mousePressed(chat);
 
+  // Bot response
   function chat() {
     let input = user_input.value();
 

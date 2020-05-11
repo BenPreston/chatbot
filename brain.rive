@@ -19,16 +19,75 @@
 ! sub what'll = what will
 ! sub who's   = who is
 
-    // Greetings
+// Greetings
 ! sub hi = hello
 ! sub yo = hello
 ! sub howdy = hello
 
+// Variables
+! var age = 35
+! array bands = The Beatles | The Stone Roses | Primal Scream | Arctic Monkeys | Blur
+
 
 // Starter Conversation
-+ hello*
-- Hello how are you? Would you like some advice on what I can do?
-+ yes
-- cool
-+ no
-- no worries, how can I help?
++ hello
+- Hi I'm BenBot. I'm a bot designed to answer any questions you might have about me. 
+
++ [*] what are you [*]
+- I am an artificial intelligence programmed by Ben. I'm here to answer any basic questions you might have about him 
+
++ how are you
+- I'm great, how are you?
+- I'm good, you?
+- Good :) you?
+- Great! You?
+- I'm fine, thanks for asking!
+
++ how old are you
+- <get age>
+
+// QUESTIONS ABOUT ME FOR CV
+
++ [*] go to school [*]
+- I went to high school in London, then did a Maths degree in Liverpool, later a Masters in Management in London and finally coding Bootcamp in Barcelona
+
++ [*] work (previously|before) [*]
+- after my Maths degree I spent a few years in Business Development. I wrote written proposals and financial budgets to respond to Government problems. I did most of this working in the not for profit world, ultimately managing a large team.
+
++ [*] become a (developer|programmer|coder) [*]
+- whilst running a team with lots of reporting responsibilities I realised my life would be much easier with an IT system. With no budget to pay someone I spent my evenings learning how to build it. Once I'd finsihed I realised this is what I wanted to do and I've been coding ful time since 2018. 
+
+
+// Personal Questions
++ [*] music do you (like|listen|love|recommend|advise|choose) [*]
+- I like lots of stuff. I listen to lots of British Rock like The Beatles, Blur and the Artic Monkeys. But I like lots of other things too like Jazz and Salsa
+
+
+
+// Response to random questions
++ say something random
+- This {random}message|sentence{/random} has a random word.
+
++ where is *
+- Where it belongs.
+- Where you left it.
+- <star> ... I think it's second on the left
+
++*
+- I'm really sorry I didn't understand that would you like a list of things you can ask me?
+- I'm not sure how to reply to that.
+- Try asking your question a different way.
+- Let's change the subject
+
+// Silly stuff
++ [*] you real [*]
+- How could I not be real! 
+
++ [*] joke [*]
+- Knock-knock!
+
++ who is there
+- siri 
+
++ siri who
+- My thoughts exactly
