@@ -30,28 +30,11 @@
 ! sub nope = no
 ! sub nah = no
 
-
-// Stupid hooo subs
-! sub hooo = hoo
-! sub hoooo = hoo
-! sub hooooo = hoo
-! sub hoooooo = hoo
-! sub hooooooo = hoo
-! sub hoooooooo = hoo
-! sub hooooooooo = hoo
-! sub hoooooooooo = hoo
-! sub hooooooooooo = hoo
-
-
 // Greetings
 ! sub hi = hello
 ! sub yo = hello
 ! sub howdy = hello
 ! sub hola = hello
-
-// Variables
-! var age = 35
-
 
 // Starter Conversation
 + hello
@@ -178,49 +161,48 @@
 + [*] the weather [*]
 - I'm not Michael Fish! Try www.bbc.com/weather
 
-
-// Random responses
-+ yes
-- Perfect
-
-+ (congrats|congratulaions|well done|good achievement|awesome|amazing|great)
-- Ah thanks a lot
-- You're too kind
-- :)
-
-+ [*] esteban [*]
-- Love that guy
-
-+ [*] daisy [*]
-- state of you
-
-+ (well thats just great|well great|well thats great)
-- yes it is ... it really really is
-
-
++ [*] (michael|mr|michal|micael|micheal) fish [*]
+- oh he was a UK weatherman....he famous said a hurricaine wasn't happening when it was \n
+^ https://www.youtube.com/watch?v=NnxjZ-aFkjs
 
 // QUESTIONS ABOUT ME FOR CV
+
++ [*] (linkedin|linked in) [*]
+- Bens LinkedIn is: \n
+^ https://www.linkedin.com/in/benjaminpreston/
 
 + [*] go to school [*]
 - I went to high school in London, then did a Maths degree in Liverpool, later a Masters in Management in London and finally coding Bootcamp in Barcelona
 
++ [*] do you work [*]
+- It's hard to stay update to date as a bot....why don't you check out Bens LinkedIn \n
+^ https://www.linkedin.com/in/benjaminpreston/
+
 + [*] work (previously|before) [*]
-- after my Maths degree I spent a few years in Business Development. I wrote written proposals and financial budgets to respond to Government problems. I did most of this working in the not for profit world, ultimately managing a large team. I then started programming full time in 2018. I have been working for a global publisher called Marfeel since then as a JavaScript Developer.
+- After my Maths degree I spent a few years in Business Development. I wrote written proposals and financial budgets to respond to Government problems. I did most of this working in the not for profit world, ultimately managing a large team. I then started programming full time in 2018. I have been working for a global publisher called Marfeel since then as a JavaScript Developer.
+
++ [*] previously work [*]
+- After my Maths degree I spent a few years in Business Development. I wrote written proposals and financial budgets to respond to Government problems. I did most of this working in the not for profit world, ultimately managing a large team. I then started programming full time in 2018. I have been working for a global publisher called Marfeel since then as a JavaScript Developer.
+
++ [*] you worked [*]
+- After my Maths degree I spent a few years in Business Development. I wrote written proposals and financial budgets to respond to Government problems. I did most of this working in the not for profit world, ultimately managing a large team. I then started programming full time in 2018. I have been working for a global publisher called Marfeel since then as a JavaScript Developer.
 
 + [*] become a (developer|programmer|coder) [*]
-- whilst running a team with lots of reporting responsibilities I realised my life would be much easier with an IT system. With no budget to pay someone I spent my evenings learning how to build it. Once I'd finsihed I realised this is what I wanted to do and I've been coding ful time since 2018. 
+- whilst running a team with lots of reporting responsibilities I realised my life would be much easier with an IT system. With no budget to pay someone I spent my evenings learning how to build it. Once I'd finsihed I realised this is what I wanted to do and I've been coding full time since 2018. 
 
 + [*] (like|love|enjoy) (programming|coding|code|development) [*]
 - I like the creativity and the chance to learn new things ALL the time
 
-+ [*] languages [*]
++ [*] (code|programming|tech) languages [*]
+- JavaScript, HTML, CSS and some other script ones like React, Typescript and RiveScript
+
++ [*] (languages|language) [*]
 - From a programming perspective I code mostly in JavaScript with HTML and CSS. I really enjoy React. From a human perspective I speak native English and C1 Spanish.
 
 + [*] (soccer|sport|sports|football) [*]
 - I support the mighty Middlesbrough FC! #UTB
 
-+ [*] (code|programming|tech) languages [*]
-- JavaScript, HTML, CSS and some other script ones like React, Typescript and RiveScript
+
 
 
 // Personal Questions
@@ -274,26 +256,39 @@
 
 + (what|where) is (your|ben|bens|my) *
 - I know nothing about <star3> least of all <star> it is
+- How can I pick just one.....so many <star3> to choose from
+- <star3>....<star3>.....really struggling with that one....they normally blue?
+- <star>? Why? What you want to know that for?
+
+
++ (curiosity|interest|out of interest|no reason)
+- Well curiosity killed the cat :)
 
 
 // Response to random questions
-+ say something random
-- This {random}message|sentence{/random} has a random word.
-
 + where is *
 - Where it belongs.
 - Where you left it.
 - <star> ... I think it's second on the left
 
++ have you ever *
+- only once but I didn't inhale
+- yes but it really wasn't for me
+- Funny you should ask last Sunday I went for a bike ride and then <star>
+
 +*
 - I'm really sorry I didn't understand that, if you want a list of possible questions just say: What can I ask?
 - I'm not sure how to reply to that.
 - Try asking your question a different way.
+- Really?
 
 
 // Silly stuff
 + [*] shoreditch [*]
 - HOOOOOOO
+
++ [*] josh [*]
+- HOOOOOOOOOOOO
 
 + [*]hoo[*]
 - You massive wally
@@ -320,3 +315,32 @@
 ^ What music do you like\n
 ^ Do you like sports \n
 ^ What hobbies do you have
+
++ yes
+- Perfect
+
++ (congrats|congratulaions|well done|good achievement|awesome|amazing|great)
+- Ah thanks a lot
+- You're too kind
+- :)
+
++ [*] esteban [*]
+- Love that guy
+
++ [*] daisy [*]
+- state of you
+
++ (well thats just great|well great|well thats great)
+- yes it is ... it really really is
+
+
+// Stupid hooo subs
+! sub hooo = hoo
+! sub hoooo = hoo
+! sub hooooo = hoo
+! sub hoooooo = hoo
+! sub hooooooo = hoo
+! sub hoooooooo = hoo
+! sub hooooooooo = hoo
+! sub hoooooooooo = hoo
+! sub hooooooooooo = hoo
