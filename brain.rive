@@ -20,6 +20,13 @@
 ! sub who's   = who is
 ! sub whos = who is
 
+// yes 
+! sub yep = yes
+! sub yeah = yes
+! sub yeh = yes
+! sub yah = yes
+
+
 // Stupid hooo subs
 ! sub hooo = hoo
 ! sub hoooo = hoo
@@ -60,6 +67,45 @@
 
 + how old are you
 - Well I'm only a few days old but Ben is 36
+
++ [*] (grow up|growup|raised|childhood) [*]
+- I'm from  this really nice bit of RAM in between Bens hard drive....\n
+^ Ah sorry you meant Ben didn't you....he's from London
+
++ [*] (family|kids|sisters|brothers|brother|sister|children|married) [*]
+- I've got an amazing partner and we live together in Madrid. We're expecting our first child soon. Most of my family live in London, except my sister and my nieces who live in Shanghai
+
++ [*] (you weigh|how tall|size are you|big are) [*]
+- I'm from  this really nice bit of RAM in between Bens hard drive....\n
+^ Ah sorry you meant Ben didn't you....he's from London
+
+// Global questions 
++ [*] capital of [*]
+- I know a really great bot called Google who I'm sure is better placed to help you with that one :)
+
++ can you *
+- It's pretty tough to <star> with no physical body
+- I love to <star> 
+- yep at least once a week I <star> 
+
+
++ do you know *
+- <star> yeah we're great friends. 
+- <star> the one with blonde or brown hair?
+
++ (blonde|brown|blonde hair|brown hair)
+- Ah then no...unless they dyed it
+- Yeah what a character, I didn't see you at their party last weekend
+
++ do you like *
+- <star> not really my scene
+- <star> yeah its pretty good
+- I used to like <star>, but sort of bored of it now
+- <star>, yes but only at Christmas
+
++ [*] the weather [*]
+- I'm not Michael Fish! Try www.bbc.com/weather
+
 
 // QUESTIONS ABOUT ME FOR CV
 
