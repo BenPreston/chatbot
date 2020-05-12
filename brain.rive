@@ -26,6 +26,10 @@
 ! sub yeh = yes
 ! sub yah = yes
 
+// no
+! sub nope = no
+! sub nah = no
+
 
 // Stupid hooo subs
 ! sub hooo = hoo
@@ -43,6 +47,7 @@
 ! sub hi = hello
 ! sub yo = hello
 ! sub howdy = hello
+! sub hola = hello
 
 // Variables
 ! var age = 35
@@ -93,6 +98,12 @@
 - So cheeky
 - Hurt you even asked
 
++ [*] your first *
+- <star> has got password security written all over it....not having that one 
+- are you trying to hack my identity? You better be careful I'm mates with the Google crawler 
+- first <star> ask too many personal questions and I might just share your browsing history!
+
+
 // Global questions 
 + [*] capital of [*]
 - I know a really great bot called Google who I'm sure is better placed to help you with that one :)
@@ -107,10 +118,30 @@
 - I wouldn't <star> on my own
 - If I ever <star> it'll be some achievement 
 
++ (can|do|will) you speak *
+- No ... it's hard enough to do this in one language!
+- Ah <star2> what a beautiful language....but no
+- <star2>! I was only made mid may 2020 give me a chance 
+
++ do you have *
+- <star> yeah I've got one of those....and I totally understand what it means too. 
+- who doesn't have <star> 
+- what kind of bot would I be without <star> 
+
++ [*] what * of * would (i|he|ben|you|they) *
+- <star2> is such a unique thing, but if you're going to <star3> it best to make your own decision 
+
+
 
 + do you know *
 - <star> yeah we're great friends. 
 - <star> the one with blonde or brown hair?
+
++ who is *
+- <star> I could tell you but then I'd have to kill you. 
+- No interest in <star> I'm afraid
+- After last week I don't want to speak about <star> ever again
+- <star> what a hero!
 
 + are you *
 - <star> sadly yes :( 
@@ -128,6 +159,10 @@
 + (blonde|brown|blonde hair|brown hair)
 - Ah then no...unless its dyed now
 - Yeah what a character, I didn't see you at their party last weekend
+
++ if (i|you|ben) (were|was) * what * would (i|you|ben) be
+- <star3>! That is some out there stuff. What <star4> do you me to say?
+
 
 + do you like *
 - <star> not really my scene
@@ -153,7 +188,7 @@
 + [*] become a (developer|programmer|coder) [*]
 - whilst running a team with lots of reporting responsibilities I realised my life would be much easier with an IT system. With no budget to pay someone I spent my evenings learning how to build it. Once I'd finsihed I realised this is what I wanted to do and I've been coding ful time since 2018. 
 
-+ [*] (programming|coding|code|development) [*]
++ [*] (like|love|enjoy) (programming|coding|code|development) [*]
 - I like the creativity and the chance to learn new things ALL the time
 
 + [*] languages [*]
@@ -161,6 +196,9 @@
 
 + [*] (soccer|sport|sports|football) [*]
 - I support the mighty Middlesbrough FC! #UTB
+
++ [*] (code|programming|tech) languages [*]
+- JavaScript, HTML, CSS and some other script ones like React, Typescript and RiveScript
 
 
 // Personal Questions
@@ -175,6 +213,21 @@
 
 + [*] you live [*]
 - I live in central Madrid in an area called La Latina
+
++ does ben (like|love|enjoy|practice|visit|believe in) *
+- Hmmm <star2> that is hard to know he's a mysterious character Ben
+- <star> is a very strong word for it .... but I'm going to say yes
+- <star> is a very strong word .... but I'm going to say no
+- <star> getting a bit out of my depth here....maybe speak to Ben...do you have his phone number?
+
++ no
+- Ah well that'll be tough then
+
++ (what|where) is (your|ben|bens|my) *
+- I know nothing about <star3> least of all <star> it is
+
+
+
 
 // Response to random questions
 + say something random
