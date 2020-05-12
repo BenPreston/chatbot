@@ -40,6 +40,14 @@
 + hello
 - Hi I'm BenBot. I'm a bot designed to answer any questions you might have about Ben. You can ask things like where I went to school, worked or some of my hobbies 
 
++ [*] what is ben like [*]
+- He's fun....not as fun as BenBot but then who is
+
++ [*] (ben|he|you) (nice|fun|kind|hard working|professional|lazy) [*]
+- Anyone who's friends with BenBot is great by association
+
+
+
 + [*] what are you [*]
 - I am an artificial intelligence programmed by Ben. I'm here to answer any basic questions you might have about him 
 
