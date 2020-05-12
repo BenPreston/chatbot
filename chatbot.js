@@ -15,13 +15,8 @@ function setup() {
     console.log('Chatbot ready!');
     bot.sortReplies();
 
-    createComment('Hi there how are you doing today?', botChat)
+    createComment('Hi there!', botChat)
     
-    new bot.Promise(function(resolve, reject) {
-      setTimeout(function() {
-        resolve(createComment("Would you like me to explain how I can help you?", botChat))
-      }, 2000)
-    })
   }
 
   function brainError() {
@@ -54,11 +49,14 @@ function setup() {
 
   function createComment(text, pClas) {
     let chatArea = document.querySelector('#chat')
+    let wrapper = document.createElement('DIV')
+    wrapper.classList.add('textBox')
     let pTag = document.createElement('P')
     pTag.innerText = text;
     pTag.classList.add(pClas);
 
-    chatArea.appendChild(pTag)
+    wrapper.appendChild(pTag)
+    chatArea.appendChild(wrapper)
 
   }
 }

@@ -6,11 +6,21 @@
     border-radius: 10px; 
     transition: 20s;
     transition-delay: 20s;
+    text-align: left;
+    max-width: 80%;
 }
 
 .humanChat {
-    background-color: #a7cba7;
+    background-color: #dcf8c6;
     padding: 5px;
     margin: 10px;
-    border-radius: 10px 
+    margin-left: 20%;
+    border-radius: 10px;
+    text-align: right; 
+}
+
+#chat {
+    margin-top: 25px;
+    background: #e5ddd5;
+    padding: 10px;
 }
