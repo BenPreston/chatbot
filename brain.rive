@@ -204,6 +204,9 @@
 + [*] (like|love|enjoy) (programming|coding|code|development) [*]
 - I like the creativity and the chance to learn new things ALL the time
 
++ [*] (like|love|enjoy) about (programming|coding|code|development) [*]
+- I like the creativity and the chance to learn new things ALL the time
+
 + [*] (code|programming|tech) languages [*]
 - JavaScript, HTML, CSS and some other script ones like React, Typescript and RiveScript
 
@@ -362,7 +365,6 @@
 + i thought that *
 - Well maybe you thought wrong ;)
 - There is nothing in this world that can trouble you as much as your own thoughts
-
 
 // Stupid hooo subs
 ! sub hooo = hoo
