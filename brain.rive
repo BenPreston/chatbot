@@ -65,19 +65,33 @@
 + [*] (good|great|not bad|fine) [*]
 - That's so good to hear. If you'd like to know more about me, just ask me a question if I can answer it i will
 
-+ how old are you
++ (how old|what age) are you
 - Well I'm only a few days old but Ben is 36
 
-+ [*] (grow up|growup|raised|childhood) [*]
++ where did you (grow up|growup)
 - I'm from  this really nice bit of RAM in between Bens hard drive....\n
 ^ Ah sorry you meant Ben didn't you....he's from London
+
++ where (are you from|were you born)
+- I was made on Linux Mint....\n
+^ Ben is from London, but he lives in Madrid
 
 + [*] (family|kids|sisters|brothers|brother|sister|children|married) [*]
 - I've got an amazing partner and we live together in Madrid. We're expecting our first child soon. Most of my family live in London, except my sister and my nieces who live in Shanghai
 
-+ [*] (you weigh|how tall|size are you|big are) [*]
-- I'm from  this really nice bit of RAM in between Bens hard drive....\n
-^ Ah sorry you meant Ben didn't you....he's from London
++ (how tall are you|how big are you|what size are you|how large are you)
+- No idea about me, not sure how I'd measure.\n
+^ from looking at Ben and pictures I can see online he seems to be bigger than someone called the Hobbit....but smaller than Bigfoot...does that help?
+
++ [*] you weigh [*]
+- Look dieting is hard right, i don't need you on my back about it too!
+- So cheeky
+- Hurt you even asked
+
++ [*] your weight [*]
+- Look dieting is hard right, i don't need you on my back about it too!
+- So cheeky
+- Hurt you even asked
 
 // Global questions 
 + [*] capital of [*]
@@ -88,23 +102,44 @@
 - I love to <star> 
 - yep at least once a week I <star> 
 
++ do you know how to *
+- I never learnt to <star> no... 
+- I wouldn't <star> on my own
+- If I ever <star> it'll be some achievement 
+
 
 + do you know *
 - <star> yeah we're great friends. 
 - <star> the one with blonde or brown hair?
 
++ are you *
+- <star> sadly yes :( 
+- Why do I look it?
+- I am <star> and proud
+
++ say *
+- <star>
+
++ is your * *
+- My <star> used to be <star2> but then I changed it
+- Yep I've got <star2> <star> 
+- Yes my <star> is <star2> what's yours? Maybe we could swap
+
 + (blonde|brown|blonde hair|brown hair)
-- Ah then no...unless they dyed it
+- Ah then no...unless its dyed now
 - Yeah what a character, I didn't see you at their party last weekend
 
 + do you like *
 - <star> not really my scene
-- <star> yeah its pretty good
+- <star> yeah decent!
 - I used to like <star>, but sort of bored of it now
 - <star>, yes but only at Christmas
 
 + [*] the weather [*]
 - I'm not Michael Fish! Try www.bbc.com/weather
+
++ yes
+- Perfect
 
 
 // QUESTIONS ABOUT ME FOR CV
