@@ -10,6 +10,11 @@
     max-width: 80%;
 }
 
+img {
+    width: 100%;
+    max-width: 300px;
+}
+
 .humanChat {
     background-color: #dcf8c6;
     padding: 5px;
@@ -23,4 +28,13 @@
     margin-top: 25px;
     background: #e5ddd5;
     padding: 10px;
+}
+
+.userArea {
+    border: 2px black solid;
+    padding: 5px 0px
+}
+
+#user_input {
+    padding: 0px 5px
 }

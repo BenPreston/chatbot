@@ -25,6 +25,7 @@ function setup() {
 
   const button = select('#submit');
   const user_input = select('#user_input');
+  const userInput = document.querySelector('#user_input');
   const input = document.querySelector('#user_input')
 
   input.addEventListener("keyup", function(event) {
@@ -39,7 +40,6 @@ function setup() {
   // Bot response
   function chat() {
     let input = user_input.value();
-    user_input.innerText = '';
     createComment(input, humanChat)
 
     let reply = bot.reply("local-user", input).then(function (reply) {
@@ -53,7 +53,7 @@ function setup() {
       })
     });
 
-    
+    userInput.value = ''
   }
 
   function createComment(text, pClas) {

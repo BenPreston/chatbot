@@ -18,6 +18,7 @@
 ! sub what've = what have
 ! sub what'll = what will
 ! sub who's   = who is
+! sub whos = who is
 
 // Greetings
 ! sub hi = hello
@@ -59,8 +60,14 @@
 + [*] become a (developer|programmer|coder) [*]
 - whilst running a team with lots of reporting responsibilities I realised my life would be much easier with an IT system. With no budget to pay someone I spent my evenings learning how to build it. Once I'd finsihed I realised this is what I wanted to do and I've been coding ful time since 2018. 
 
-+ [*] (like|love|enjoy) about (programming|coding) [*]
++ [*] (programming|coding|code|development) [*]
 - I like the creativity and the chance to learn new things ALL the time
+
++ [*] languages [*]
+- From a programming perspective I code mostly in JavaScript with HTML and CSS. I really enjoy React. From a human perspective I speak native English and C1 Spanish.
+
++ [*] (soccer|sport|sports|football) [*]
+- I support the mighty Middlesbrough FC! #UTB
 
 
 // Personal Questions
@@ -85,7 +92,11 @@
 - I'm not sure how to reply to that.
 - Try asking your question a different way.
 
+
 // Silly stuff
++ [*] shoreditch [*]
+- HOOOOOOO
+
 + [*] you real [*]
 - How could I not be real! 
 
@@ -106,4 +117,5 @@
 ^ Where did you go to school\n
 ^ What to you love about coding\n
 ^ What music do you like\n
+^ Do you like sports \n
 ^ What hobbies do you have
