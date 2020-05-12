@@ -20,6 +20,18 @@
 ! sub who's   = who is
 ! sub whos = who is
 
+// Stupid hooo subs
+! sub hooo = hoo
+! sub hoooo = hoo
+! sub hooooo = hoo
+! sub hoooooo = hoo
+! sub hooooooo = hoo
+! sub hoooooooo = hoo
+! sub hooooooooo = hoo
+! sub hoooooooooo = hoo
+! sub hooooooooooo = hoo
+
+
 // Greetings
 ! sub hi = hello
 ! sub yo = hello
@@ -102,7 +114,7 @@
 + [*] shoreditch [*]
 - HOOOOOOO
 
-+ [*] hoo [*]
++ [*]hoo[*]
 - You massive wally
 
 + [*] you real [*]
