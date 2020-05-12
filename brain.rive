@@ -267,6 +267,12 @@
 + (curiosity|interest|out of interest|no reason)
 - Well curiosity killed the cat :)
 
++ [*] glasses [*]
+- Ben wears glasses....he's a cool guy really
+
++ [*] (covid|covid19|covid 19|corona|coronavirus|corona virus|death|famine|pain)
+- Lets talk about something more uplifting than <star>
+
 
 // Response to random questions
 + where is *
@@ -285,6 +291,9 @@
 - Try asking your question a different way.
 - Really?
 
+// BenBot question
++ when were you (designed|made|built|created) [*]
+- May 2020....in the midst of coronavirus....I guess Ben was bored
 
 // Silly stuff
 + [*] shoreditch [*]
