@@ -171,8 +171,11 @@
 - Bens LinkedIn is: \n
 ^ https://www.linkedin.com/in/benjaminpreston/
 
-+ [*] go to school [*]
++ [*] go to (school|college|university|study) [*]
 - I went to high school in London, then did a Maths degree in Liverpool, later a Masters in Management in London and finally coding Bootcamp in Barcelona
+
++ [*] (he|ben|you) study [*]
+- Maths for an undergraduate degree, a Masters in Managment and then Javascript at a bootcamp
 
 + [*] do you work [*]
 - It's hard to stay update to date as a bot....why don't you check out Bens LinkedIn \n
@@ -330,8 +333,18 @@
 + [*] daisy [*]
 - state of you
 
-+ (well thats just great|well great|well thats great)
++ (well thats just great|well great|well thats great|great)
 - yes it is ... it really really is
+
++ (not bad|cool|well done|heroic|amazing|so cool|coool|nice)
+- :)
+- thanks
+- it really is
+- damn straight :)
+
++ i thought that *
+- Well maybe you thought wrong ;)
+- There is nothing in this world that can trouble you as much as your own thoughts
 
 
 // Stupid hooo subs
