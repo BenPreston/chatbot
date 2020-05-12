@@ -36,6 +36,87 @@
 ! sub howdy = hello
 ! sub hola = hello
 
+// BenBot question
++ when were you (designed|made|built|created) [*]
+- May 2020....in the midst of coronavirus....I guess Ben was bored
+
+// Silly stuff
++ [*] shoreditch [*]
+- HOOOOOOO
+
++ [*] josh [*]
+- HOOOOOOOOOOOO
+
++ [*]hoo[*]
+- You massive wally
+
++ [*] you real [*]
+- How could I not be real! 
+
++ [*] joke [*]
+- Knock-knock!
+
++ who is there
+- siri 
+
++ siri who
+- My thoughts exactly
+
++ what can i ask
+- Tell me a joke \n
+^ What are you\n
+^ How old are you\n
+^ Where did you work before\n
+^ Where did you go to school\n
+^ What do you love about coding\n
+^ What music do you like\n
+^ Do you like sports \n
+^ What hobbies do you have
+
++ where do you * 
+- Somewhere south
+- Where the wind takes me
+- Somewhere close by 
+- Not too far from you
+- Only a couple of miles away actually
+
++ yes
+- Perfect
+
++ (ok|never mind|okay|lets move on)
+- cool cool
+
++ (congrats|congratulaions|well done|good achievement|awesome|amazing|great|fair enough|that is cool)
+- Ah thanks a lot
+- You're too kind
+- :)
+
++ [*] esteban [*]
+- Love that guy
+
++ [*] daisy [*]
+- state of you
+
++ (well thats just great|well great|well thats great|great)
+- yes it is ... it really really is
+
++ [*] (shit|fuck|blowjob|blow job|cunt|anal) [*]
+- now now I'm a family friendly bot
+- you wouldn't believe how many people want to swear at me
+- do you catch me saying <star>
+- sticks and stones can break my bones but words will never hurt me ... mainly because I'm not real :)
+
++ (not bad|cool|well done|heroic|amazing|so cool|coool|nice|true)
+- :)
+- thanks
+- it really is
+- damn straight :)
+
++ i thought that *
+- Well maybe you thought wrong ;)
+- There is nothing in this world that can trouble you as much as your own thoughts
+
+
 // Starter Conversation
 + hello
 - Hi I'm BenBot. I'm a bot designed to answer any questions you might have about Ben. You can ask things like where I went to school, worked or some of my hobbies 
@@ -46,12 +127,13 @@
 + [*] (ben|he|you) (nice|fun|kind|hard working|professional|lazy) [*]
 - Anyone who's friends with BenBot is great by association
 
-
-
 + [*] what are you [*]
 - I am an artificial intelligence programmed by Ben. I'm here to answer any basic questions you might have about him 
 
-+ [*] how are you [*]
++ [*] (hablas|habla|hablar) [*]
+- Ah sorry if you want to talk Spanish speak to Ben 
+
++ [*] how are (you|things) [*]
 - I'm great, how are you?
 - I'm good, you?
 - Good :) you?
@@ -69,8 +151,8 @@
 ^ Ah sorry you meant Ben didn't you....he's from London
 
 + where (are you from|were you born)
-- I was made on Linux Mint....\n
-^ Ben is from London, but he lives in Madrid
+- Well Ben was born in London but he lives on Madrid....\n
+^ BenBot was born on Linux Mint
 
 + [*] (family|kids|sisters|brothers|brother|sister|children|married) [*]
 - I've got an amazing partner and we live together in Madrid. We're expecting our first child soon. Most of my family live in London, except my sister and my nieces who live in Shanghai
@@ -99,6 +181,9 @@
 + [*] capital of [*]
 - I know a really great bot called Google who I'm sure is better placed to help you with that one :)
 
++ [*] (had to choose|choose one|pick one)
+- I would stay very firmly on the fence
+
 + can you *
 - It's pretty tough to <star> with no physical body
 - I love to <star> 
@@ -121,8 +206,6 @@
 
 + [*] what * of * would (i|he|ben|you|they) *
 - <star2> is such a unique thing, but if you're going to <star3> it best to make your own decision 
-
-
 
 + do you know *
 - <star> yeah we're great friends. 
@@ -175,9 +258,19 @@
 
 // QUESTIONS ABOUT ME FOR CV
 
++ [*] (last|previous) (job|employer)
+- ALthough I hate to admit it I am just a bot, so maybe check out \n
+^ Bens LinkedIn for up to date info: \n
+^ https://www.linkedin.com/in/benjaminpreston/
+ 
+
 + [*] (linkedin|linked in) [*]
 - Bens LinkedIn is: \n
 ^ https://www.linkedin.com/in/benjaminpreston/
+
++ [*] where was (school|college|university|study|the bootcamp|bootcamp) [*]
+- I went to high school in London, then did a Maths degree in Liverpool, later a Masters in Management in London and finally coding Bootcamp in Barcelona
+
 
 + [*] go to (school|college|university|study) [*]
 - I went to high school in London, then did a Maths degree in Liverpool, later a Masters in Management in London and finally coding Bootcamp in Barcelona
@@ -216,10 +309,13 @@
 + [*] (soccer|sport|sports|football) [*]
 - I support the mighty Middlesbrough FC! #UTB
 
-
-
-
 // Personal Questions
++ [*] (ben|i|you) (like|love|hate|adore|prefer|want) *
+- Who doesn't?
+- How could I not?
+- I would say even more than <star2>
+
+
 + [*] music do you (like|listen|love|recommend|advise|choose) [*]
 - I like lots of stuff. I listen to lots of British Rock like The Beatles, Blur and the Artic Monkeys. But I like lots of other things too like Jazz and Salsa
 
@@ -228,6 +324,27 @@
 
 + [*] (footballer|soccer player) [*]
 - Oooh tough one....I'd have to say George Boateng though....although Juninho and runs him pretty close
+
++ [*] have you lived [*]
+- Well I'm from London, I spent a year as a child in New York, I went to University in Liverpool and then I've lived in Barcelona and now Madrid!
+
++ did you like living in barcelona
+- yes its a great city I miss the beach
+
++ (did|do) you like barcelona 
+- Its an amazing place, the people are very friendly and there's so many options for excercise....I don't miss the humidity though
+
++ do you like living in madrid
+- I love it as a city, its so green and theres so much going on
+
++ [*] you like madrid [*]
+- I love it as a city, its so green and theres so much going on
+
++ do you like living in london
+- of course theres so much going on there and so many lovely people
+
++ [*] you like london [*]
+- Yes I used to live by the Olympic Park so my local sports facilities were amazing :)
 
 + [*] you live [*]
 - I live in central Madrid in an area called La Latina
@@ -244,22 +361,20 @@
 + (what|where) is (your|ben|bens|my) (favourite|least favourite) food
 - I don't eat...I'm not real....Ben likes Pizza though, and curry and anything spicy
 
-+ (what|where) is (your|ben|bens|my) (favourite|least favourite) (band|music|song)
++ favourite (album|song|band)
+- OK Computer - Radiohead :)
+
++ [*] (your|ben|bens|my) (favourite|least favourite) (band|music|song|album)
 - Too many to pick....the Clash are amazing....and if I had to pick one maybe Should I stay or Should I go...or Loaded by Primal Scream....could ask me again and I'd probably change my mind
-- Computer Love by Kraftwerk
-- Computer Age by Neil Young
-- OK Computer - Radiohead
+- Computer Love by Kraftwerk ;)
+- Computer Age by Neil Young ;)
+- OK Computer - Radiohead :)
 
 + [*] fired [*]
 - Fired! Like from a canon?
 
 + (what|where) is (your|ben|bens|my) favourite *
 - I doubt <star3> could pick a favourite <star3> there's just so many amazing ones
-
-+ [*] (ben|i|you) (like|love|hate|adore|prefer|want) *
-- Who doesn't?
-- How could I not?
-- <star2>!!! Really....please!
 
 + what is (my|ben|bens|your) *
 - one for another day I'm afraid
@@ -286,6 +401,9 @@
 
 
 // Response to random questions
++ [*] is your favourite [*]
+- oh impossible to say. I like them all
+
 + where is *
 - Where it belongs.
 - Where you left it.
@@ -296,75 +414,19 @@
 - yes but it really wasn't for me
 - Funny you should ask last Sunday I went for a bike ride and then <star>
 
++ * 
+% maybe its easier if we talk about you what is your name
+- hi <star> nice to meet you
+
 +*
 - I'm really sorry I didn't understand that, if you want a list of possible questions just say: What can I ask?
 - I'm not sure how to reply to that.
-- Try asking your question a different way.
+- Sorry I didn't quite get that.
 - Really?
+- maybe its easier if we talk about you what is your name
 
-// BenBot question
-+ when were you (designed|made|built|created) [*]
-- May 2020....in the midst of coronavirus....I guess Ben was bored
+ 
 
-// Silly stuff
-+ [*] shoreditch [*]
-- HOOOOOOO
-
-+ [*] josh [*]
-- HOOOOOOOOOOOO
-
-+ [*]hoo[*]
-- You massive wally
-
-+ [*] you real [*]
-- How could I not be real! 
-
-+ [*] joke [*]
-- Knock-knock!
-
-+ who is there
-- siri 
-
-+ siri who
-- My thoughts exactly
-
-+ what can i ask
-- Tell me a joke \n
-^ What are you\n
-^ How old are you\n
-^ Where did you work before\n
-^ Where did you go to school\n
-^ What to you love about coding\n
-^ What music do you like\n
-^ Do you like sports \n
-^ What hobbies do you have
-
-+ yes
-- Perfect
-
-+ (congrats|congratulaions|well done|good achievement|awesome|amazing|great)
-- Ah thanks a lot
-- You're too kind
-- :)
-
-+ [*] esteban [*]
-- Love that guy
-
-+ [*] daisy [*]
-- state of you
-
-+ (well thats just great|well great|well thats great|great)
-- yes it is ... it really really is
-
-+ (not bad|cool|well done|heroic|amazing|so cool|coool|nice)
-- :)
-- thanks
-- it really is
-- damn straight :)
-
-+ i thought that *
-- Well maybe you thought wrong ;)
-- There is nothing in this world that can trouble you as much as your own thoughts
 
 // Stupid hooo subs
 ! sub hooo = hoo
