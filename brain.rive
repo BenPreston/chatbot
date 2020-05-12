@@ -43,8 +43,7 @@
 - I'm fine, thanks for asking!
 
 + [*] (good|great|not bad|fine) [*]
-- That's so good to hear. If you'd like to know more about me, just ask me a question \n
-^ if I can answer it i will
+- That's so good to hear. If you'd like to know more about me, just ask me a question if I can answer it i will
 
 + how old are you
 - Well I'm only a few days old but Ben is 36
@@ -82,10 +81,9 @@
 - <star> ... I think it's second on the left
 
 +*
-- I'm really sorry I didn't understand that would you like a list of things you can ask me?
+- I'm really sorry I didn't understand that if you want a list of possible questions just say: What can I ask?
 - I'm not sure how to reply to that.
 - Try asking your question a different way.
-- Let's change the subject
 
 // Silly stuff
 + [*] you real [*]
@@ -99,3 +97,13 @@
 
 + siri who
 - My thoughts exactly
+
++ what can i ask
+- Tell me a joke \n
+^ What are you\n
+^ How old are you\n
+^ Where did you work before\n
+^ Where did you go to school\n
+^ What to you love about coding\n
+^ What music do you like\n
+^ What hobbies do you have

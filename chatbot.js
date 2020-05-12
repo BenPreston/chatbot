@@ -23,16 +23,23 @@ function setup() {
     console.log('Chatbot error!');
   }
 
-  let button = select('#submit');
-  let user_input = select('#user_input');
-  let output = select('#output');
+  const button = select('#submit');
+  const user_input = select('#user_input');
+  const input = document.querySelector('#user_input')
+
+  input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      chat();
+    }
+  }); 
 
   button.mousePressed(chat);
 
   // Bot response
   function chat() {
     let input = user_input.value();
-
+    user_input.innerText = '';
     createComment(input, humanChat)
 
     let reply = bot.reply("local-user", input).then(function (reply) {
@@ -45,6 +52,8 @@ function setup() {
         }, 1500)
       })
     });
+
+    
   }
 
   function createComment(text, pClas) {
