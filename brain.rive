@@ -163,6 +163,11 @@
 + if (i|you|ben) (were|was) * what * would (i|you|ben) be
 - <star3>! That is some out there stuff. What <star4> do you me to say?
 
++ do you * *
+- <star2> no nearly impossible as a bot I'm afraid
+- <star> only after a few drinks
+- Only with close friends
+- Every Wednesday
 
 + do you like *
 - <star> not really my scene
@@ -173,8 +178,25 @@
 + [*] the weather [*]
 - I'm not Michael Fish! Try www.bbc.com/weather
 
+
+// Random responses
 + yes
 - Perfect
+
++ (congrats|congratulaions|well done|good achievement|awesome|amazing|great)
+- Ah thanks a lot
+- You're too kind
+- :)
+
++ [*] esteban [*]
+- Love that guy
+
++ [*] daisy [*]
+- state of you
+
++ (well thats just great|well great|well thats great)
+- yes it is ... it really really is
+
 
 
 // QUESTIONS ABOUT ME FOR CV
@@ -223,10 +245,35 @@
 + no
 - Ah well that'll be tough then
 
++ (what|where) is (your|ben|bens|my) (favourite|least favourite) food
+- I don't eat...I'm not real....Ben likes Pizza though, and curry and anything spicy
+
++ (what|where) is (your|ben|bens|my) (favourite|least favourite) (band|music|song)
+- Too many to pick....the Clash are amazing....and if I had to pick one maybe Should I stay or Should I go...or Loaded by Primal Scream....could ask me again and I'd probably change my mind
+- Computer Love by Kraftwerk
+- Computer Age by Neil Young
+- OK Computer - Radiohead
+
++ [*] fired [*]
+- Fired! Like from a canon?
+
++ (what|where) is (your|ben|bens|my) favourite *
+- I doubt <star3> could pick a favourite <star3> there's just so many amazing ones
+
++ [*] (ben|i|you) (like|love|hate|adore|prefer|want) *
+- Who doesn't?
+- How could I not?
+- <star2>!!! Really....please!
+
++ what is (my|ben|bens|your) *
+- one for another day I'm afraid
+- too tired to get into that
+- I wish I knew
+- One day I'll tell you
+
+
 + (what|where) is (your|ben|bens|my) *
 - I know nothing about <star3> least of all <star> it is
-
-
 
 
 // Response to random questions
@@ -239,7 +286,7 @@
 - <star> ... I think it's second on the left
 
 +*
-- I'm really sorry I didn't understand that if you want a list of possible questions just say: What can I ask?
+- I'm really sorry I didn't understand that, if you want a list of possible questions just say: What can I ask?
 - I'm not sure how to reply to that.
 - Try asking your question a different way.
 
