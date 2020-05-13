@@ -212,7 +212,7 @@
 - <star> the one with blonde or brown hair?
 
 + who is *
-- <star> I could tell you but then I'd have to kill you. 
+- <star>, I could tell you but then I'd have to kill you. 
 - No interest in <star> I'm afraid
 - After last week I don't want to speak about <star> ever again
 - <star> what a hero!
@@ -224,6 +224,8 @@
 
 + say *
 - <star>
+
+
 
 + is your * *
 - My <star> used to be <star2> but then I changed it
@@ -292,7 +294,7 @@
 + [*] previously work [*]
 - After my Maths degree I spent a few years in Business Development. I wrote written proposals and financial budgets to respond to Government problems. I did most of this working in the not for profit world, ultimately managing a large team. I then started programming full time in 2018. I have been working for a global publisher called Marfeel since then as a JavaScript Developer.
 
-+ [*] you worked [*]
++ [*] (ben|you|he) (worked|work) [*]
 - After my Maths degree I spent a few years in Business Development. I wrote written proposals and financial budgets to respond to Government problems. I did most of this working in the not for profit world, ultimately managing a large team. I then started programming full time in 2018. I have been working for a global publisher called Marfeel since then as a JavaScript Developer.
 
 + [*] become a (developer|programmer|coder) [*]
@@ -319,6 +321,9 @@
 - How could I not?
 - I would say even more than <star2>
 
++ who is ben
+- He's a computer programmer from London. You can find out more on his LinkedIn: \n
+^ https://www.linkedin.com/in/benjaminpreston/
 
 + [*] music do you (like|listen|love|recommend|advise|choose) [*]
 - I like lots of stuff. I listen to lots of British Rock like The Beatles, Blur and the Artic Monkeys. But I like lots of other things too like Jazz and Salsa
@@ -421,6 +426,9 @@
 + * 
 % maybe its easier if we talk about you what is your name
 - hi <star> nice to meet you
+
++ (and you|you too|you to|u 2|likewise|likewise)
+- :)
 
 +*
 - I'm really sorry I didn't understand that, if you want a list of possible questions just say: What can I ask?
